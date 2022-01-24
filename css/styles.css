@@ -277,7 +277,6 @@ body {
 
   width: 528px;
   height: 581px;
-  padding: 8px 8px;
 
   background-color: var(--background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -295,9 +294,12 @@ body {
   display: flex;
   width: 30px;
   height: 30px;
+  padding: 0;
   align-items: center;
   justify-content: center;
-  margin-left: auto;
+  position: absolute;
+  top: 8px;
+  right: 8px;
 
   background-color: var(--background-color);
   border-radius: 50%;
