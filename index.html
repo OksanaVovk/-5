@@ -45,7 +45,16 @@
     <section class="main-part">
         <div class="conteiner">
         <h1 class="main-title">Эффективные решения <br /> для вашего бизнеса</h1>
-        <button type="button" class="main-button">Заказать услугу</button>
+        <button type="button" class="main-button" data-modal-open>Заказать услугу</button>
+        </div>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button type="button" class="close-window" data-modal-close>
+                <svg class="vector" width="11" height="11">
+                    <use href="./images/symbol-defs.svg#icon-Vector"></use>
+                </svg>
+                </button>
+            </div>
         </div>
     </section>
     <!-- Особливості -->
@@ -389,6 +398,7 @@
 </ul>
 </div>
 </div> 
-</footer>  
+</footer>
+<script src="./js/modal.js"></script>
 </body>
 </html>
