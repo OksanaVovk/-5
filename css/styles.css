@@ -674,8 +674,8 @@ img {
 }
 
 .text {
-  /* position: relative;
-  z-index: 1; */
+  position: relative;
+  z-index: 1;
   background-color: var(--background-color);
   padding: 20px 24px;
 
